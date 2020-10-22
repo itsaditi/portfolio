@@ -164,7 +164,8 @@
 	}
 
 	.site-logo img {
-		height: 22px;
+		/* height: 22px; */
+		height: 80px
 	}
 
 	/* Navigation */
@@ -334,7 +335,10 @@
 	}
 
 	.img-lines {
-	    margin: 10px 0 30px;
+		/* margin: 10px 0 30px; */
+		/* margin: -17% -5% -16%; */
+		margin: -6% 4% -6% 0%;
+	
 	}
 
 	.site-section p {

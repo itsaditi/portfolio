@@ -216,6 +216,7 @@ html, body {
     height: 100%;
     width: 100%;
     min-height: 700px;
+    filter: invert(20%) sepia(102%) saturate(7%) hue-rotate(130deg) brightness(68%) contrast(155%);
     /* color: whitesmoke; */
 }
 
@@ -308,8 +309,14 @@ html, body {
     text-transform: uppercase;
 }
 
+.site-logo img {
+    /* height: 22px; */
+    height: 85px
+}
 .img-lines {
-    margin: 15px 0 40px;
+    /* margin: 15px 0 40px; */
+    /* margin: -32% 16% -33%; */
+    margin: -22% 16% -23%;
 }
 
 .site-section p {
@@ -612,4 +619,8 @@ a.icon-up-bg:hover {color: #212121;}
     width: 50%;
     margin-bottom: 53%;
     margin-right: 28%;
+}
+
+.skill{
+    margin: 6%;
 }
